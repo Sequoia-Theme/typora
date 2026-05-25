@@ -1,0 +1,32 @@
+/* Sequoia Sequoia Monochrome Light for Typora */
+:root {
+  --bg-color: #edeef2;
+  --side-bar-bg-color: #e2e3e8;
+  --text-color: #282930;
+  --select-text-bg-color: #817c9c38;
+  --item-hover-bg-color: #e2e3e8;
+  --control-text-color: #282930;
+  --control-text-hover-color: #454752;
+  --active-file-bg-color: #817c9c38;
+  --active-file-text-color: #282930;
+  --window-border: 1px solid #42434e33;
+  --primary-color: #454752;
+  --search-select-bg-color: #817c9c38;
+  --rawblock-edit-panel-bd: #e2e3e8;
+  --monospace: "JetBrains Mono", "Fira Code", monospace;
+}
+
+#write {
+  max-width: 860px;
+  color: #282930;
+  background: #edeef2;
+}
+
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6 {
+  color: #5f6370;
+}
+
+#write a { color: #525666; }
+#write blockquote { border-left: 4px solid #454752; color: #42434e; }
+#write code { background: #e2e3e8; color: #50535e; }
+#write pre { background: #e2e3e8; }

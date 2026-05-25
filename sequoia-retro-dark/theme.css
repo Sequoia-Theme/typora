@@ -1,0 +1,32 @@
+/* Sequoia Sequoia Retro Dark for Typora */
+:root {
+  --bg-color: #0f1014;
+  --side-bar-bg-color: #111216;
+  --text-color: #868690;
+  --select-text-bg-color: #817c9c26;
+  --item-hover-bg-color: #111216;
+  --control-text-color: #868690;
+  --control-text-hover-color: #a27e57;
+  --active-file-bg-color: #817c9c26;
+  --active-file-text-color: #868690;
+  --window-border: 1px solid #57586133;
+  --primary-color: #a27e57;
+  --search-select-bg-color: #817c9c26;
+  --rawblock-edit-panel-bd: #111216;
+  --monospace: "JetBrains Mono", "Fira Code", monospace;
+}
+
+#write {
+  max-width: 860px;
+  color: #868690;
+  background: #0f1014;
+}
+
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6 {
+  color: #5c87a4;
+}
+
+#write a { color: #829fa7; }
+#write blockquote { border-left: 4px solid #a27e57; color: #575861; }
+#write code { background: #111216; color: #da674b; }
+#write pre { background: #111216; }
